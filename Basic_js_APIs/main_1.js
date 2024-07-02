@@ -17,6 +17,20 @@ console.log(string_2.replace("wo","totoro"));
 
 //  this will split and store it in an array 
 const str_3  = "hi this is a web dev course";
-const words = str_3.split(" ")
-console.log(words)
+const words = str_3.split(" ");
+console.log(words);
+
+
+const str_4 = "  this   my  ";
+console.log(str_4);
+console.log(str_4.trim());
+
+
+// parseInt is not a class's function it is a global func 
+console.log(parseInt('42'));
+console.log(parseInt("3.45"));
+console.log(parseInt("45px"));
+
+// parseFloat()
+
 
