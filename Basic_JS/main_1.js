@@ -23,3 +23,10 @@ if(isMarried==true){
 }else{
     console.log(firstname +  " is not married")
 }
+
+// Loops 
+//  let is for block scoped and var is for function scoped 
+for (let i = 0 ; i < 3; i++){
+    console.log(i)
+}
+
