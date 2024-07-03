@@ -21,3 +21,5 @@ function callGivenFunc(a_func){
 callGivenFunc(log1);
 
 callGivenFunc(log4);
+
+//  time stamp : 33:02 
