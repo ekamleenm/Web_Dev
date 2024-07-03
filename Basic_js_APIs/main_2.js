@@ -13,3 +13,11 @@ console.log(initialArray)
 // if i wanna put something in front of the array 
 initialArray.unshift(32);
 console.log(initialArray);
+
+
+// Concatination 
+
+const arr_1 = [1,2];
+const arr_2 = [6,7,8];
+console.log("\n");
+console.log(arr_1.concat(arr_2));
