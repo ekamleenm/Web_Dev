@@ -7,7 +7,7 @@ function findSum(n){
 }
 
 function findSumTill100(){
-    return findSum(100);
+    console.log(findSum(100));
 }
 
 // this is async function ; we call it and move on. 
@@ -22,4 +22,7 @@ console.log("hello world");
     setTimeout is called, scheduling findSumTill100 to run after 1 second.
     Immediately after scheduling, the code execution continues, and console.log("hello world") runs.
     After 1 second, findSumTill100 is executed. 
+    setTimeout is called, and it's recognized as a Web API function.
+    The delay and the callback function (findSumTill100) are passed to the Web API to handle.
+
 */
