@@ -11,7 +11,7 @@ function ekam_readFile(){
                 resolve(data);
             }
         });
-    });
+    })
 }
 
 function when_done(data){
